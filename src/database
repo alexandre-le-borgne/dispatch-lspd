@@ -1,0 +1,31 @@
+unit
+- id
+- name
+- grade
+- roles[]
+- in_service
+- in_service_since
+- busy
+- busy_since
+- training
+
+dispatch
+[
+  - Call sign type
+  - Call sign position
+  - unit_id
+  - patrol area
+  - since
+]
+
+
+dispatch_history
+[
+  - unit_id
+  - date
+  - message
+]
+
+roles:
+central
+central_manager
